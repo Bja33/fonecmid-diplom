@@ -10,6 +10,11 @@
     <value>Работа с файлами</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <forms uuid="8deb4f57-18fc-4db0-ad0f-82d60af3d80b">
     <name>ВерсияПрисоединенногоФайла</name>
     <synonym>
