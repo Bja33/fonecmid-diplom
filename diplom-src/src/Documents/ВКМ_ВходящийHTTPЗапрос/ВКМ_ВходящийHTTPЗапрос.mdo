@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97154155-394f-48dd-ab1b-fb30502052e0">
+  <producedTypes>
+    <objectType typeId="95698a6d-c033-471f-97fb-ceb0a39313db" valueTypeId="6a974060-26bb-47c2-9699-57395d78398c"/>
+    <refType typeId="0522ff91-772a-4b30-9f51-fe718f6dcdfb" valueTypeId="4bc010bd-814d-4fc9-b17d-8f64f33c3824"/>
+    <selectionType typeId="d99f1e82-26c8-425b-bc71-ffd0a4aa88df" valueTypeId="7a88032d-5069-41bf-a456-3508835e1795"/>
+    <listType typeId="804a2bea-55a8-4158-8a4b-ce08c71c5095" valueTypeId="e63f4af7-4729-4981-8acf-77203d0c7bff"/>
+    <managerType typeId="09c3f4d8-65b0-43f5-a6c1-3234c733f30f" valueTypeId="b3a2905b-df7d-4c1c-9e60-b625a24f032f"/>
+  </producedTypes>
+  <name>ВКМ_ВходящийHTTPЗапрос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Входящий HTTPЗапрос</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВКМ_ВходящийHTTPЗапрос.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВКМ_ВходящийHTTPЗапрос.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ВКМ_ВходящийHTTPЗапрос.Form.ФормаСписка</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d8ea4e11-6d35-482a-8931-c82d97b33404">
+    <name>ВКМ_ТелоЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тело запроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cc04bc99-8cc8-44be-900b-8b0f348ffa93">
+    <name>ВКМ_КодСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код состояния</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ea0c7560-e9c3-4e83-a476-dd340a803cb1">
+    <name>ВКМ_ИмяМетода</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВКМ имя метода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e6c47408-1318-46af-9d9e-73c31746170d">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8d677135-dbd0-4267-b0cf-5c2c7bc72581">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>
