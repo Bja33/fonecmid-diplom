@@ -18,17 +18,23 @@
   <periodicity>Month</periodicity>
   <basePeriod>true</basePeriod>
   <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</chartOfCalculationTypes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="07fdef65-7c26-4469-8b3c-fc7cf0f68871">
-    <name>ВКМ_Сумма</name>
+  <fullTextSearch>Use</fullTextSearch>
+  <resources uuid="83c9f7a2-4146-4e88-bcc6-91102114b518">
+    <name>ВКМ_Начислено</name>
     <synonym>
       <key>ru</key>
-      <value>Сумма</value>
+      <value>Начислено</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>12</precision>
+        <precision>10</precision>
         <scale>2</scale>
       </numberQualifiers>
     </type>
@@ -36,7 +42,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="b0f63388-df20-47ef-abdb-f61b393b36e9">
+  <attributes uuid="5e13fbb3-7753-41df-a4c1-4fe5954e1803">
     <name>ВКМ_Сотрудник</name>
     <synonym>
       <key>ru</key>
@@ -48,21 +54,5 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-  </dimensions>
-  <dimensions uuid="8592c820-678d-468a-bfdc-157a81d25efc">
-    <name>ВКМ_ВидРасчета</name>
-    <synonym>
-      <key>ru</key>
-      <value>Вид расчета</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>20</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </dimensions>
+  </attributes>
 </mdclass:CalculationRegister>

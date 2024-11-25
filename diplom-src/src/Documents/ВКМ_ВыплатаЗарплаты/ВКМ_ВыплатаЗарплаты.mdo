@@ -50,7 +50,7 @@
       <name>ВКМ_Сотрудник</name>
       <synonym>
         <key>ru</key>
-        <value>ВКМ сотрудник</value>
+        <value>Cотрудник</value>
       </synonym>
       <type>
         <types>CatalogRef.Пользователи</types>
