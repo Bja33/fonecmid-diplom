@@ -3,7 +3,7 @@
   <name>ВКМ_Боты</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ боты</value>
+    <value>Боты</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>

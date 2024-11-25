@@ -8,4 +8,12 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>Document.ВКМ_НачисленияЗарплаты</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
 </mdclass:Subsystem>
