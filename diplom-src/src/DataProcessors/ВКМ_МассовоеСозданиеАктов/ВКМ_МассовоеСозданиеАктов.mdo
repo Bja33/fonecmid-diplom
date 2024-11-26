@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47f9476e-f2a5-4ba3-a5dc-9ad918640c2f">
+  <producedTypes>
+    <objectType typeId="0c95345c-7bee-4845-bbd1-a150e9004528" valueTypeId="16f70b03-d05b-4327-b793-e0ff15f88e4b"/>
+    <managerType typeId="119b85af-18da-4f0d-bba1-0fbbff81d202" valueTypeId="cd96e36d-ba11-4e30-a0b7-f884f0cbe71c"/>
+  </producedTypes>
+  <name>ВКМ_МассовоеСозданиеАктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Массовое создание актов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВКМ_МассовоеСозданиеАктов.Form.Форма</defaultForm>
+  <attributes uuid="fac7fbe4-780f-44dc-9cba-d73ce1cb5445">
+    <name>ВКМ_Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДЛФ=ДФ=MMMM</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДЛФ=ДФ=MMMM</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="ac8f2b68-5d7d-4f39-83a1-47c2ecaf5c8e">
+    <producedTypes>
+      <objectType typeId="e30ed9f1-7673-4dc6-81a4-d812439939cb" valueTypeId="2ed72bf9-52b6-4cd1-a7a8-06ed6a502be3"/>
+      <rowType typeId="3f9ad2a1-1ec2-447b-a043-9e7d50fada85" valueTypeId="4bf76ba0-80af-414e-8a3e-78f91b8bf23b"/>
+    </producedTypes>
+    <name>ВКМ_СозданныеДокументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Созданные документы</value>
+    </synonym>
+  </tabularSections>
+  <tabularSections uuid="c26f516f-df41-4979-84ec-fe8009cce2bd">
+    <producedTypes>
+      <objectType typeId="507e9b8c-2303-41c5-bd3f-a6b914efdc68" valueTypeId="cfa67cc2-289e-4e7b-812a-f7e69fff2215"/>
+      <rowType typeId="dfa69474-ad15-48aa-9c53-30fc7989ee45" valueTypeId="8d6e3f1c-3114-4aba-a854-ba59175def36"/>
+    </producedTypes>
+    <name>ВКМ_СозданныеРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Созданные реализации</value>
+    </synonym>
+  </tabularSections>
+  <forms uuid="b4db736e-d51f-40b3-997d-ebc560724d36">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
