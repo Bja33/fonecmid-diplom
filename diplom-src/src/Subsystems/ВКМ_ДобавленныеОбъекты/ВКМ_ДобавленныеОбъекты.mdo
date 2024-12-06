@@ -14,7 +14,6 @@
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <content>Constant.ВКМ_ИдентификаторГруппыТелеграм</content>
   <content>Constant.ВКМ_ТокенТелеграмБота</content>
-  <content>HTTPService.ВКМ_ТелеграмБот</content>
   <content>CommonModule.ВКМ_ОбщегоНазначенияHTTP</content>
   <content>CommonModule.ВКМ_Телеграмм</content>
   <content>Document.ВКМ_ВходящийHTTPЗапрос</content>

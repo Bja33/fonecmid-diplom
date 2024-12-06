@@ -41,8 +41,6 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.Form.ФормаЭлемента</defaultObjectForm>
-  <dependenceOnCalculationTypes>OnRegistrationPeriod</dependenceOnCalculationTypes>
   <predefined>
     <items id="9d25366a-a4bd-4f9a-b3b9-409d563d0981">
       <name>ВКМ_Премия</name>
@@ -52,13 +50,4 @@
       </code>
     </items>
   </predefined>
-  <forms uuid="313aa387-74ec-48d8-bfcc-30dfa224152e">
-    <name>ФормаЭлемента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма элемента</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:ChartOfCalculationTypes>
