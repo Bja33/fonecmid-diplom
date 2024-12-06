@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>ВКМ отправка сообщений в телеграм</value>
   </synonym>
+  <methodName>CommonModule.ВКМ_Телеграмм.ПеребратьЭлементыСпрУведомления</methodName>
   <use>true</use>
   <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
