@@ -10,4 +10,12 @@
     <value>Выработка специалистов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <templates uuid="2c3ca24e-65d3-49dc-aa40-d51b5b95a5a1">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
 </mdclass:Report>
