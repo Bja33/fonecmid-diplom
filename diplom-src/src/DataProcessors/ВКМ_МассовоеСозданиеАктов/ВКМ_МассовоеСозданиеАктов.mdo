@@ -11,11 +11,11 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ВКМ_МассовоеСозданиеАктов.Form.Форма</defaultForm>
-  <attributes uuid="fac7fbe4-780f-44dc-9cba-d73ce1cb5445">
+  <attributes uuid="d7b92c74-3925-49af-bad7-17b1cc32265b">
     <name>ВКМ_Период</name>
     <synonym>
       <key>ru</key>
-      <value>Период</value>
+      <value>ВКМ период</value>
     </synonym>
     <type>
       <types>Date</types>
@@ -23,14 +23,6 @@
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
     </type>
-    <format>
-      <key>ru</key>
-      <value>ДЛФ=ДФ=MMMM</value>
-    </format>
-    <editFormat>
-      <key>ru</key>
-      <value>ДЛФ=ДФ=MMMM</value>
-    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -44,19 +36,44 @@
       <key>ru</key>
       <value>Созданные документы</value>
     </synonym>
+    <attributes uuid="e3bc215a-708e-401c-8019-176250831bb7">
+      <name>ВКМ_Договор</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВКМ договор</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="fa22a8b7-07f6-466b-988d-c863a5b3675f">
+      <name>ВКМ_Реализация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реализация</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.РеализацияТоваровУслуг</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bf825913-09a0-46a1-b8cd-c49e035b6bbd">
+      <name>ВКМ_Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
   </tabularSections>
-  <tabularSections uuid="c26f516f-df41-4979-84ec-fe8009cce2bd">
-    <producedTypes>
-      <objectType typeId="507e9b8c-2303-41c5-bd3f-a6b914efdc68" valueTypeId="cfa67cc2-289e-4e7b-812a-f7e69fff2215"/>
-      <rowType typeId="dfa69474-ad15-48aa-9c53-30fc7989ee45" valueTypeId="8d6e3f1c-3114-4aba-a854-ba59175def36"/>
-    </producedTypes>
-    <name>ВКМ_СозданныеРеализации</name>
-    <synonym>
-      <key>ru</key>
-      <value>Созданные реализации</value>
-    </synonym>
-  </tabularSections>
-  <forms uuid="b4db736e-d51f-40b3-997d-ebc560724d36">
+  <forms uuid="99afd985-9c8f-45f3-87d5-559252eadae1">
     <name>Форма</name>
     <synonym>
       <key>ru</key>

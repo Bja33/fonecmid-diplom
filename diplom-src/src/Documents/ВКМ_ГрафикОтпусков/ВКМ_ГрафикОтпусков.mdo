@@ -24,7 +24,8 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ВКМ_ГрафикОтпусков.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>AccumulationRegister.ВКМ_ПлановыеОтпуска</registerRecords>
+  <defaultListForm>Document.ВКМ_ГрафикОтпусков.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.ВКМ_ПлановыеОтпуска</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="2231783d-4718-4e82-877b-48c7d835a97e">
@@ -83,6 +84,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма анализ графика</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="569c07be-1547-4ef1-8f7e-c72c56c42be8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

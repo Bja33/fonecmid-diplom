@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e54b5a76-b25d-4375-adc6-0e014832523b">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e54b5a76-b25d-4375-adc6-0e014832523b">
   <producedTypes>
     <objectType typeId="5cb66798-ca0c-41bc-98b1-7db6eac5c491" valueTypeId="0b0fc0fa-7c20-43d7-a1c2-6853c6b734a9"/>
     <refType typeId="eee20e4d-8152-4a9e-95ec-892e92479d48" valueTypeId="f8409bca-3e70-455e-b5b1-79c16893b6ff"/>
@@ -30,4 +30,20 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="442815d6-a906-433b-9fcb-196cf0a3e732">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

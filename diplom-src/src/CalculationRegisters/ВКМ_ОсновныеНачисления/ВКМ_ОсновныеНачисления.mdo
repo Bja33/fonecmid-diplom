@@ -57,23 +57,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <resources uuid="f9438136-3a11-40aa-95ed-c8b56bf0c0f5">
-    <name>ВКМ_Оклад</name>
-    <synonym>
-      <key>ru</key>
-      <value>Оклад</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <scale>2</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </resources>
   <attributes uuid="adb29390-b778-48bd-b888-129bf78fc1de">
     <name>ВКМ_ГрафикРаботы</name>
     <synonym>
@@ -87,7 +70,23 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
-  <attributes uuid="3d36a75b-21f9-4ed3-90ff-cae4d0a10a6e">
+  <attributes uuid="e6997007-fe1c-44ca-934f-78303669c1f1">
+    <name>ВКМ_Оклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оклад</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="e248c2dc-e22e-42e9-83f7-5f2a6048acb3">
     <name>ВКМ_Сотрудник</name>
     <synonym>
       <key>ru</key>
@@ -99,5 +98,5 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-  </attributes>
+  </dimensions>
 </mdclass:CalculationRegister>

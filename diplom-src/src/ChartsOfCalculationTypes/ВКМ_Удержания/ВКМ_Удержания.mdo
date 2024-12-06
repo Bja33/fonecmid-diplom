@@ -25,6 +25,14 @@
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Удержание</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Удержание</value>
+  </listPresentation>
   <codeLength>9</codeLength>
   <descriptionLength>40</descriptionLength>
   <codeType>String</codeType>
@@ -33,10 +41,6 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <dependenceOnCalculationTypes>OnRegistrationPeriod</dependenceOnCalculationTypes>
-  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</baseCalculationTypes>
-  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</baseCalculationTypes>
-  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</baseCalculationTypes>
-  <actionPeriodUse>true</actionPeriodUse>
   <predefined>
     <items id="66e5e20a-b132-4f9e-b094-2170f2a7f9c1">
       <name>ВКМ_НДФЛ</name>

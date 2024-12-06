@@ -54,7 +54,8 @@
   <subsystems>Subsystem.ПокупкиИПродажи</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.ВКМ_ОбслуживаниеКлиентов</subsystems>
-  <subsystems>Subsystem.ВКМ_Боты</subsystems>
+  <subsystems>Subsystem.ВКМ_РаботаСКадрами</subsystems>
+  <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВладелецФайловШрифт</styleItems>
   <styleItems>StyleItem.ВычисленноеПравоДоступаЦвет</styleItems>
@@ -573,6 +574,19 @@
   <roles>Role.ЧтениеДополнительныхСведений</roles>
   <roles>Role.ЧтениеНСИ</roles>
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживания</roles>
+  <roles>Role.ВКМ_ЧтениеОтчетРасчетыССотрудниками</roles>
+  <roles>Role.ВКМ_ЧтениеОтчетРасходОтпусков</roles>
+  <roles>Role.ВКМ_ЧтениеОтчетВыработкаСпециалистов</roles>
+  <roles>Role.ВКМ_ЧтениеОтчетАнализВыставленныхАктов</roles>
+  <roles>Role.ВКМ_НачислениеЗарплаты</roles>
+  <roles>Role.ВКМ_МассовоеСозданиеДокументовРеализации</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеГрафикаОтпусков</roles>
+  <roles>Role.ВКМ_АдминистраторБотов</roles>
+  <roles>Role.ВКМ_РасчетыССотрудниками</roles>
+  <roles>Role.ВКМ_РасходЗапланированныхОтпусков</roles>
+  <roles>Role.ВКМ_ВыработкаСпециалистов</roles>
+  <roles>Role.ВКМ_АнализВыставленныхАктов</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</commonTemplates>
@@ -1211,6 +1225,10 @@
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>
+  <reports>Report.ВКМ_ВыработкаСпециалистов</reports>
+  <reports>Report.ВКМ_РасчетыССотрудниками</reports>
+  <reports>Report.ВКМ_РасходЗапланированныхОтпусков</reports>
+  <reports>Report.ВКМ_АнализВыставленныхАктов</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ГрупповоеИзменениеРеквизитов</dataProcessors>
@@ -1306,6 +1324,7 @@
   <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
   <informationRegisters>InformationRegister.ВКМ_УсловияОплатыСотрудников</informationRegisters>
   <informationRegisters>InformationRegister.ВКМ_ГрафикиРаботы</informationRegisters>
+  <informationRegisters>InformationRegister.ВКМ_ПлановыеОтпуска</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПокупателей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПоставщикам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Затраты</accumulationRegisters>
@@ -1315,7 +1334,7 @@
   <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.ВКМ_ПлановыеОтпуска</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВКМ_ФактическиеОтпуска</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartsOfCalculationTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</chartsOfCalculationTypes>

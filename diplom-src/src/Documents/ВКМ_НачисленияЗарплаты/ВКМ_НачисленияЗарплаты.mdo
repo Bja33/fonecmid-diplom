@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0491e2bf-3e14-40f0-8fff-85ee97ee2f0a">
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0491e2bf-3e14-40f0-8fff-85ee97ee2f0a">
   <producedTypes>
     <objectType typeId="427700ad-1b68-452c-b5db-e581c0ee8a0a" valueTypeId="652efea3-4ce7-4c8e-8e1a-effc4f08c600"/>
     <refType typeId="ca4d0c40-1182-4a7b-a05a-9394755c30b0" valueTypeId="f2d2582a-d1a2-4c0f-ba7b-77aa65861905"/>
@@ -31,25 +31,7 @@
   <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="1b17c5db-bd42-44c0-8674-fb174728ed0a">
-    <name>ВКМ_ВидРасчета</name>
-    <synonym>
-      <key>ru</key>
-      <value>Вид расчета</value>
-    </synonym>
-    <type>
-      <types>ChartOfCalculationTypesRef</types>
-      <types>ChartOfCalculationTypesRef.ВКМ_ДополнительныеНачисления</types>
-      <types>ChartOfCalculationTypesRef.ВКМ_ОсновныеНачисления</types>
-      <types>ChartOfCalculationTypesRef.ВКМ_Удержания</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <forms uuid="2a8a4c8a-1c82-4c40-82c5-3111d749c878">
+  <forms uuid="d59b2300-e9c5-41f6-b34f-32b7670f11bc">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -58,118 +40,4 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="1071dfba-4de7-481b-b1b5-147e1b1b083c">
-    <producedTypes>
-      <objectType typeId="2f16b68b-2dfe-4195-a0a2-808d91ea026b" valueTypeId="82195829-ca42-4263-85c2-0b8e6481b817"/>
-      <rowType typeId="434bfd92-36e3-4e92-b3e6-1bd6cf99340d" valueTypeId="5656c39e-9ac1-4a57-8a6d-db2eb1dd6fc1"/>
-    </producedTypes>
-    <name>ВКМ_Начисления</name>
-    <synonym>
-      <key>ru</key>
-      <value>Основные начисления</value>
-    </synonym>
-    <attributes uuid="ed129b5a-9a72-4a56-aa7b-b4ffe5abde53">
-      <name>ВКМ_Сотрудник</name>
-      <synonym>
-        <key>ru</key>
-        <value>ВКМ сотрудник</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Пользователи</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="89c63d16-9d4f-4449-8618-3ad221265478">
-      <name>ВКМ_ВидРасчета</name>
-      <synonym>
-        <key>ru</key>
-        <value>Вид расчета</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <types>ChartOfCalculationTypesRef.ВКМ_ОсновныеНачисления</types>
-        <types>ChartOfCalculationTypesRef.ВКМ_ДополнительныеНачисления</types>
-        <types>ChartOfCalculationTypesRef.ВКМ_Удержания</types>
-        <stringQualifiers>
-          <length>10</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="9249b39b-b9de-40d0-9ca3-6f61160a1939">
-      <name>ВКМ_ДатаНачала</name>
-      <synonym>
-        <key>ru</key>
-        <value>Дата начала</value>
-      </synonym>
-      <type>
-        <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Date</dateFractions>
-        </dateQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="777e61c9-31db-46da-9352-6ad771a8eead">
-      <name>ВКМ_ДатаОкончания</name>
-      <synonym>
-        <key>ru</key>
-        <value>Дата окончания</value>
-      </synonym>
-      <type>
-        <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Date</dateFractions>
-        </dateQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="8f19376a-c9df-490c-95c1-628c83d54410">
-      <name>ВКМ_Размер</name>
-      <synonym>
-        <key>ru</key>
-        <value>Размер</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>12</precision>
-          <scale>2</scale>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="42e36cf1-5363-461f-9ada-1b5f93289db0">
-      <name>ВКМ_ГрафикРаботы</name>
-      <synonym>
-        <key>ru</key>
-        <value>График работы</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
 </mdclass:Document>

@@ -14,7 +14,7 @@
   <type>
     <types>String</types>
     <stringQualifiers>
-      <length>150</length>
+      <length>20</length>
     </stringQualifiers>
   </type>
   <useStandardCommands>true</useStandardCommands>

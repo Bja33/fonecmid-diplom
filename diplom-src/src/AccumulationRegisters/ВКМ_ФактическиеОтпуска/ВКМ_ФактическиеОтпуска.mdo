@@ -8,32 +8,16 @@
     <recordKeyType typeId="e3812065-c844-4491-8772-cf79ca7fd797" valueTypeId="21399810-22f7-4edc-8dcd-16db4e7eac3d"/>
     <recordType typeId="ac967a95-579b-4c93-be9b-34b414a421a6" valueTypeId="4bb04fbc-38a4-49f8-b607-bdacae468d80"/>
   </producedTypes>
-  <name>ВКМ_ПлановыеОтпуска</name>
+  <name>ВКМ_ФактическиеОтпуска</name>
   <synonym>
     <key>ru</key>
-    <value>Плановые отпуска</value>
+    <value>Фактические отпуска</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="6ac23c75-6ff5-4e2b-abac-ffba727e5dca">
-    <name>ВКМ_ДатаНачало</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата начало</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </resources>
   <resources uuid="bd722fc0-0f44-4adb-b095-d337a3e15a87">
-    <name>ВКМ_ОтпускПлан</name>
+    <name>ВКМ_ОтпускФакт</name>
     <synonym>
       <key>ru</key>
       <value>Отпуск план</value>

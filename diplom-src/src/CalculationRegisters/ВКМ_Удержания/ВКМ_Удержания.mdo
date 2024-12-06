@@ -41,7 +41,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <attributes uuid="733339df-2a84-46d7-af5c-afb689c963ae">
+  <dimensions uuid="48b71948-f746-4db4-9d70-3869ecb076ad">
     <name>ВКМ_Сотрудник</name>
     <synonym>
       <key>ru</key>
@@ -53,5 +53,5 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-  </attributes>
+  </dimensions>
 </mdclass:CalculationRegister>
