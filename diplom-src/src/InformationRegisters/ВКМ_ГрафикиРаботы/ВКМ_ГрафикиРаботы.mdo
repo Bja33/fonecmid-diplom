@@ -17,6 +17,14 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>График работы</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>График работы</value>
+  </listPresentation>
   <resources uuid="a900de4e-1cab-46a0-9a22-4c656a2e6d93">
     <name>ВКМ_Значение</name>
     <synonym>

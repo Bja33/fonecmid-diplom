@@ -15,13 +15,6 @@
       <value>Ping</value>
     </synonym>
     <template>/ping</template>
-    <methods uuid="b4bdd880-2969-4297-89bb-46429c458683">
-      <name>GETPing</name>
-      <synonym>
-        <key>ru</key>
-        <value>GETPing</value>
-      </synonym>
-    </methods>
   </urlTemplates>
   <urlTemplates uuid="2ae8af36-6abf-4a7a-9b10-bcd7da49fb71">
     <name>Send</name>
@@ -30,13 +23,5 @@
       <value>Send</value>
     </synonym>
     <template>/Send</template>
-    <methods uuid="a19d43d6-40a6-419c-9b17-5b76d02d6f79">
-      <name>POSTSend</name>
-      <synonym>
-        <key>ru</key>
-        <value>POSTSend</value>
-      </synonym>
-      <httpMethod>POST</httpMethod>
-    </methods>
   </urlTemplates>
 </mdclass:HTTPService>
