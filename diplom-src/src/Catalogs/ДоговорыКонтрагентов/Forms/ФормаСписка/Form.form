@@ -302,10 +302,6 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Список.ВидДоговора</segments>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ВидДоговораПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ВидДоговораРасширеннаяПодсказка</name>
         <id>33</id>
@@ -573,6 +569,7 @@
       <userSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</userSettingsGroup>
     </extInfo>
   </items>
+  <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -584,10 +581,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

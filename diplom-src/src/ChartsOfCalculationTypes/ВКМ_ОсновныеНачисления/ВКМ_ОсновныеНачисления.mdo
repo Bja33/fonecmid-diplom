@@ -23,6 +23,11 @@
   <inputByString>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>DontUse</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
@@ -46,29 +51,21 @@
   <actionPeriodUse>true</actionPeriodUse>
   <predefined>
     <items id="8295ef36-1180-489c-801e-e947dfeb8b73">
-      <name>ВКМ_Отпуск</name>
-      <description>Отпуск</description>
+      <name>ВКМ_Оклад</name>
+      <description>Оклад</description>
       <code xsi:type="core:StringValue">
         <value>01</value>
       </code>
+      <displaced>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.ВКМ_Отпуск</displaced>
+    </items>
+    <items id="db2dc776-c2e8-4730-ab4c-e1e9e8f29362">
+      <name>ВКМ_Отпуск</name>
+      <description>Оклад</description>
+      <code xsi:type="core:StringValue">
+        <value>02</value>
+      </code>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.ВКМ_Оклад</base>
+      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ВКМ_Премия</base>
     </items>
   </predefined>
-  <attributes uuid="0f9183c1-9ff5-45e6-851b-ffafdcd93885">
-    <name>ВКМ_Отпуск</name>
-    <synonym>
-      <key>ru</key>
-      <value>Оотпуск</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
 </mdclass:ChartOfCalculationTypes>
