@@ -7,12 +7,35 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
+			<dataPath>Сотрудник</dataPath>
+			<field>Сотрудник</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудник</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
 			<dataPath>Период</dataPath>
 			<field>Период</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Период</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтпускФакт</dataPath>
+			<field>ОтпускФакт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отпуск факт</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -24,7 +47,7 @@
 		<query>ВЫБРАТЬ
 	ВКМ_ПлановыеОтпуска.Период КАК ПериодПлан,
 	ВКМ_ПлановыеОтпуска.ВКМ_Сотрудник КАК Сотрудник,
-	СУММА(ВКМ_ПлановыеОтпуска.ВКМ_ОтпускПлан) КАК ОтпускПлан
+	СУММА(ВКМ_ПлановыеОтпуска.ВКМ_ОтпускПлан) КАК ВКМ_ОтпускПлан
 ПОМЕСТИТЬ ВТ_План
 ИЗ
 	РегистрСведений.ВКМ_ПлановыеОтпуска КАК ВКМ_ПлановыеОтпуска
@@ -32,14 +55,14 @@
 	ВКМ_ПлановыеОтпуска.Период &lt; &amp;КонецПериода
 	И ВКМ_ПлановыеОтпуска.Период &gt;= &amp;НачалоПериода
 СГРУППИРОВАТЬ ПО
-	ВКМ_ПлановыеОтпуска.Период,
-	ВКМ_ПлановыеОтпуска.ВКМ_Сотрудник
+	ВКМ_ПлановыеОтпуска.ВКМ_Сотрудник,
+	ВКМ_ПлановыеОтпуска.Период
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
 ВЫБРАТЬ
-	ВКМ_ФактическиеОтпускаОбороты.ВКМ_Сотрудник,
-	ВКМ_ФактическиеОтпускаОбороты.ВКМ_ОтпускФактОборот
+	ВКМ_ФактическиеОтпускаОбороты.ВКМ_Сотрудник КАК Сотрудник,
+	ВКМ_ФактическиеОтпускаОбороты.ВКМ_ОтпускФактОборот КАК ОтпускФактОборот
 ПОМЕСТИТЬ ВТ_Факт
 ИЗ
 	РегистрНакопления.ВКМ_ФактическиеОтпуска.Обороты(&amp;НачалоПериода, &amp;КонецПериода,,) КАК ВКМ_ФактическиеОтпускаОбороты
@@ -47,10 +70,13 @@
 
 ////////////////////////////////////////////////////////////////////////////////
 ВЫБРАТЬ
-	ВТ_План.ПериодПлан КАК Период
+	ВТ_План.Сотрудник КАК Сотрудник,
+	ВТ_План.ПериодПлан КАК Период,
+	ВТ_Факт.ОтпускФактОборот КАК ОтпускФакт
 ИЗ
-	ВТ_План КАК ВТ_План,
-	ВТ_Факт КАК ВТ_Факт</query>
+	ВТ_План КАК ВТ_План
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_Факт КАК ВТ_Факт
+		ПО ВТ_План.Сотрудник = ВТ_Факт.Сотрудник</query>
 	</dataSet>
 	<parameter>
 		<name>НачалоПериода</name>
@@ -63,10 +89,10 @@
 		<valueType>
 			<v8:Type>xs:dateTime</v8:Type>
 			<v8:DateQualifiers>
-				<v8:DateFractions>DateTime</v8:DateFractions>
+				<v8:DateFractions>Date</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
-		<useRestriction>false</useRestriction>
+		<useRestriction>true</useRestriction>
 	</parameter>
 	<parameter>
 		<name>КонецПериода</name>
@@ -79,10 +105,10 @@
 		<valueType>
 			<v8:Type>xs:dateTime</v8:Type>
 			<v8:DateQualifiers>
-				<v8:DateFractions>DateTime</v8:DateFractions>
+				<v8:DateFractions>Date</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
-		<useRestriction>false</useRestriction>
+		<useRestriction>true</useRestriction>
 	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>

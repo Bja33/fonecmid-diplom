@@ -10,17 +10,7 @@
     <value>Расход запланированных отпусков</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>Report.ВКМ_РасходЗапланированныхОтпусков.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.ВКМ_РасходЗапланированныхОтпусков.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <forms uuid="5a898d0a-0d71-4f51-b141-069e98dbb69b">
-    <name>ФормаОтчета</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма отчета</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <templates uuid="2b446da9-7bf6-4df4-8075-db15c2920080">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

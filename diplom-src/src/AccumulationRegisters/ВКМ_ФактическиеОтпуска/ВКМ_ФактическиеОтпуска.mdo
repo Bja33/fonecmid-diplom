@@ -14,6 +14,7 @@
     <value>Фактические отпуска</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="bd722fc0-0f44-4adb-b095-d337a3e15a87">

@@ -24,4 +24,5 @@
   <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
   <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
   <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>InformationRegister.ВКМ_ПлановыеОтпуска</content>
 </mdclass:Subsystem>

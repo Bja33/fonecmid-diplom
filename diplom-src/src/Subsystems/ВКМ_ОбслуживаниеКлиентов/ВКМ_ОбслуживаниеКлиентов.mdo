@@ -16,4 +16,5 @@
   <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
   <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
 </mdclass:Subsystem>
